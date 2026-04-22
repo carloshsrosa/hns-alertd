@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+echo "[pre-commit] gofmt + golangci-lint + go test -race"
+make pre-commit
